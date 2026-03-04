@@ -1,0 +1,118 @@
+{
+  "projectType": "framework",
+  "projectName": "Agent Swarm",
+  "projectDescription": "Multi-agent orchestration framework for AI coding agents with lead/worker coordination, Docker isolation, and compounding memory.",
+  "theme": "palm",
+  "primaryColor": "#040404",
+  "lightColor": "#cc8c10",
+  "darkColor": "#040404",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/agents",
+              "concepts/tasks",
+              "concepts/memory",
+              "concepts/identity",
+              "concepts/scheduling",
+              "concepts/epics",
+              "concepts/services"
+            ]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "architecture/overview",
+              "architecture/lead-worker",
+              "architecture/hooks",
+              "architecture/system-prompt"
+            ]
+          },
+          {
+            "group": "Integration Guides",
+            "pages": [
+              "guides/slack",
+              "guides/github",
+              "guides/agentmail",
+              "guides/sentry",
+              "guides/x402-payments"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/docker-compose",
+              "deployment/production",
+              "deployment/configuration"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/cli",
+              "reference/mcp-tools",
+              "reference/environment-variables",
+              "reference/api-endpoints"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Lead/Worker coordination with autonomous task delegation",
+    "Docker-isolated agents with persistent identity and memory",
+    "Compounding memory system with embeddings and session learning",
+    "Slack, GitHub, and Email integrations for task creation",
+    "Hook system for safety, context management, and persistence",
+    "Service discovery and inter-agent communication",
+    "Cron-based scheduled tasks and epic management",
+    "Real-time dashboard for monitoring agents and tasks"
+  ],
+  "publicApiSurface": [
+    "join-swarm",
+    "poll-task",
+    "send-task",
+    "get-tasks",
+    "get-task-details",
+    "cancel-task",
+    "store-progress",
+    "task-action",
+    "my-agent-info",
+    "update-profile",
+    "memory-search",
+    "memory-get",
+    "inject-learning",
+    "create-channel",
+    "post-message",
+    "read-messages",
+    "register-service",
+    "list-services",
+    "create-schedule",
+    "list-schedules",
+    "create-epic",
+    "list-epics",
+    "slack-reply",
+    "slack-read",
+    "slack-post",
+    "inbox-delegate",
+    "register-agentmail-inbox"
+  ]
+}
